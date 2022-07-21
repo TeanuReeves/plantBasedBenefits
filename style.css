@@ -1,15 +1,30 @@
-h1{
-    text-align: center;
+body {
+    margin: 0 auto;
 }
-nav{
+.zoneOne{
+   background-color: #295115;
+   color: #72B01D;
+   height: 50px;
+   font-size:x-large;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
     display: flex;
+    list-style: none;
     justify-content: space-between;
+    margin: 0;
 }
-ul{
+
+.photoGallery {
+    /*show heigh: auto*/
+    height: 50vh; 
     display: flex;
-    list-style-type: none;
     align-items: center;
+    justify-content: center;
 }
+
+
 footer{
     position: fixed;
     left: 0;

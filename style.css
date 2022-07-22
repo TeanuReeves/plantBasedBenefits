@@ -1,6 +1,9 @@
 body {
     margin: 0 auto;
 }
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
 .zoneOne{
    background-color: #295115;
    color: #72B01D;
@@ -16,20 +19,41 @@ body {
     margin: 0;
 }
 
+.navbar li{
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+/***********************************************************************
+ *  Photo Gallery
+ **********************************************************************/
 .photoGallery {
     /*show heigh: auto*/
     height: 50vh; 
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #553555;
+
 }
 
+/***********************************************************************
+ *  Latetst Blog Panel
+ **********************************************************************/
+ .latestBlogs{
+    background-color: red;
+ }
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
 
 footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 50px;
     background-color: #8f5c38;
     color: white;
     text-align: center;
